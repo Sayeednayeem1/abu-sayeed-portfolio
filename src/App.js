@@ -1,9 +1,10 @@
 import './App.css';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div>
-     <h1 className='text-center'>this is a test</h1>
+    <div className='min-h-screen bg-rose-50 '>
+      <Home />
     </div>
   );
 }
