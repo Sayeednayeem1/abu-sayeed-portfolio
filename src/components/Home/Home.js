@@ -1,9 +1,16 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
         <div>
-            <h1>this is home</h1>
+            <Typewriter
+                options={{
+                    strings: ['Hello', 'World'],
+                    autoStart: true,
+                    loop: true,
+                }}
+            />
         </div>
     );
 };
