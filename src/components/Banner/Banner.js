@@ -1,6 +1,9 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import BannerPic from '../../assets/Images/BannerPic.jpg';
+import './Banner.css';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 
 const Banner = () => {
     return (
@@ -23,11 +26,17 @@ const Banner = () => {
 
                     <p className="mb-8 leading-relaxed">Welcome to my portfolio! I'm Abu Sayeed, a passionate web developer with a knack for crafting dynamic and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in creating seamless, intuitive online experiences.</p>
                     <p className="mb-8 leading-relaxed">I'm well-versed in cutting-edge technologies, including React.js for building interactive user interfaces and leveraging npm packages to streamline development. Additionally, I harness the power of frameworks like Tailwind and Bootstrap to ensure elegant and responsive designs across various platforms.</p>
-                    <div className="flex justify-center">
-                        <button className="inline-flex text-black bg-[#EAF1F4] shadow-xl border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Facebook</button>
-                        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-                        <p className='bg-[#E0EDEF] shadow-xl flex items-center p-4 rounded-sm'>Google</p>
+                    <div>
+                        <h4 className='text-slate-500 font-bold mb-4'>FIND ME</h4>
+                        <div className="grid justify-center grid-cols-2 lg:grid-cols-4 gap-4">
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaFacebookF className='text-2xl'></FaFacebookF></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><AiOutlineMail className='text-2xl'></AiOutlineMail></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><AiFillGithub className='text-2xl'></AiFillGithub></p>
+                        </div>
                     </div>
+
+
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
                     <img className="object-cover object-center rounded" alt="hero" src={BannerPic} />
