@@ -1,17 +1,9 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div>
-            <Typewriter
-                options={{
-                    strings: ['Hello', 'World'],
-                    autoStart: true,
-                    loop: true,
-                }}
-            />
-        </div>
+        <Banner />
     );
 };
 
