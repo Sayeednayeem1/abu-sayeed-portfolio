@@ -4,11 +4,12 @@ import BannerPic from '../../assets/Images/BannerPic.jpg';
 import './Banner.css';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
+import Footer from '../Footer/Footer';
 
 const Banner = () => {
     return (
         <section className="text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col mt-0 md:mt-0 lg:mt-20 items-center">
+            <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col mt-0 md:mt-0 lg:mt-20 items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className='text-slate-500 font-bold mb-4'>WELCOME TO MY WORLD</h1>
                     <div className='text-5xl font-bold mb-4'>
@@ -42,6 +43,7 @@ const Banner = () => {
                     <img className="object-cover object-center rounded" alt="hero" src={BannerPic} />
                 </div>
             </div>
+            <Footer></Footer>
         </section>
     );
 };
