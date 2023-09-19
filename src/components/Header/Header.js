@@ -5,8 +5,8 @@ const Header = () => {
 
     const navItems = <React.Fragment>
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
+        <li className="text-xl font-bold"><Link to='/projects'>Projects</Link></li>
+        <li className="text-xl font-bold"><Link to='/contact'>Contact</Link></li>
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
