@@ -7,10 +7,8 @@ const Header = () => {
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
         <li className="text-xl font-bold"><Link to='/projects'>Projects</Link></li>
         <li className="text-xl font-bold"><Link to='/contact'>Contact</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
-        <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
+        <li className="text-xl font-bold"><Link to='/skills'>Skills</Link></li>
+        <li className="text-xl font-bold"><Link to='https://drive.google.com/file/d/16ekUWaFuC33fuG3-Xhk-Y2_zLr5vWGpl/view?usp=sharing' target="_blank">Resume</Link></li>
         <li className="text-xl font-bold"><Link to='/'>Home</Link></li>
     </React.Fragment>
 
