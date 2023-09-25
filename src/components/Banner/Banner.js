@@ -5,6 +5,7 @@ import './Banner.css';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -30,10 +31,10 @@ const Banner = () => {
                     <div>
                         <h4 className='text-slate-500 font-bold mb-4'>FIND ME</h4>
                         <div className="grid justify-center grid-cols-2 lg:grid-cols-4 gap-4">
-                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
-                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaFacebookF className='text-2xl'></FaFacebookF></p>
-                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><AiOutlineMail className='text-2xl'></AiOutlineMail></p>
-                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><AiFillGithub className='text-2xl'></AiFillGithub></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'> <Link target='_blank' to='https://www.linkedin.com/in/sayeed-nayeem/'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></Link></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><Link target='_blank' to='https://web.facebook.com/sayed.nayem.188'><FaFacebookF className='text-2xl'></FaFacebookF></Link></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation' onClick={() => window.location.href = 'mailto:sayeedn850@gmail.com'}><AiOutlineMail className='text-2xl'></AiOutlineMail></p>
+                            <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><Link target='_blank' to='https://github.com/Sayeednayeem1'><AiFillGithub className='text-2xl'></AiFillGithub></Link></p>
                         </div>
                     </div>
 

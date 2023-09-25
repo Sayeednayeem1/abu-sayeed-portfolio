@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -10,8 +11,16 @@ const Footer = () => {
                     <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Copyright © 2023 - All right reserved</h1>
                 </div>
                 <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
-                    <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
-                    <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                    <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'>
+                        <Link target='_blank' to='whatsapp://send?phone=+8801751589952'>
+                            <FaWhatsapp className='text-2xl'></FaWhatsapp>
+                        </Link>
+                    </p>
+                    <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'>
+                        <Link target='_blank' to='https://twitter.com/SayeedNayeem9'>
+                            <FaTwitter className='text-2xl'></FaTwitter>
+                        </Link>
+                    </p>
                 </div>
             </div >
         </section >
