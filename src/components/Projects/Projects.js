@@ -15,7 +15,7 @@ const Projects = () => {
                 </div>
                 {/* Job Finder */}
                 <div className="flex flex-wrap -m-4">
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={JobFinder} />
                             <div className="flex-grow sm:pl-8">
@@ -37,7 +37,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Amazing John */}
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={AmazingJohn} />
                             <div className="flex-grow sm:pl-8">
@@ -59,7 +59,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Nay Tech org */}
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={NayTech} />
                             <div className="flex-grow sm:pl-8">
@@ -81,7 +81,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Doctor website */}
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Doctor} />
                             <div className="flex-grow sm:pl-8">
