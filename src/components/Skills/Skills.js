@@ -21,7 +21,7 @@ const Skills = () => {
                                     </svg>
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Expertise</h2>
-                                <p className="leading-relaxed text-base">HTML, CSS, Bootstrap, Tailwind css, JavaScript, React js, React Router Dom, firebase, RESTful API, npm packages etc. </p>
+                                <p className="leading-relaxed text-base">HTML, CSS, Bootstrap, Tailwind css, JavaScript, React js, React Router Dom, firebase, RESTful API, npm packages and chatGPT. </p>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ const Skills = () => {
                                     </svg>
                                 </div>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Extra Skills</h2>
-                                <p className="leading-relaxed text-base">Team Work, Good communication, Problem Solving, Time Management, Adaptability, Attention to Detail, Creativity and Analytical Thinking etc.</p>
+                                <p className="leading-relaxed text-base">Team Work, Good communication, Problem Solving, Time Management, Adaptability, Attention to Detail, Creativity and Analytical Thinking.</p>
                             </div>
                         </div>
 

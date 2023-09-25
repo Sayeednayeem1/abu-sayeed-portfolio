@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import icon from '../../assets/Images/bruce-mars-FWVMhUa_wbY-unsplash.jpg'
+import icon from '../../assets/Images/tea-me.jpg'
 const Header = () => {
 
     const navItems = <React.Fragment>

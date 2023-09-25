@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="container mx-auto max-w-screen-xl px-5 py-24 flex flex-wrap">
                 <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                     <div className="w-full sm:p-4 px-4 mb-6">
-                        <h1 className="title-font font-bold text-2xl mb-2 text-gray-800">Contact Me</h1>
+                        <h1 className="title-font font-bold text-2xl mb-2 text-slate-500">Contact Me</h1>
                         <div className="leading-relaxed">
                             Thank you for considering reaching out. I'm excited to hear from you!
                             Please feel free to use any of the methods below to get in touch.
