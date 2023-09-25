@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import JobFinder from '../../assets/Images/job-finder/job-finder1.png';
+import AmazingJohn from '../../assets/Images/amazing/Amazing-John.png';
+import NayTech from '../../assets/Images/nay-tech/nay-1.png';
+import Doctor from '../../assets/Images/doctor/doctor-1.png';
 
 const Projects = () => {
     return (
@@ -36,9 +39,9 @@ const Projects = () => {
                     {/* Amazing John */}
                     <div className="p-4 lg:w-1/2">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={JobFinder} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={AmazingJohn} />
                             <div className="flex-grow sm:pl-8">
-                                <h2 className="title-font font-medium text-lg text-gray-900">Job Finder</h2>
+                                <h2 className="title-font font-medium text-lg text-gray-900">Amazing John</h2>
                                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
                                 <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-flex">
@@ -58,9 +61,9 @@ const Projects = () => {
                     {/* Nay Tech org */}
                     <div className="p-4 lg:w-1/2">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={JobFinder} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={NayTech} />
                             <div className="flex-grow sm:pl-8">
-                                <h2 className="title-font font-medium text-lg text-gray-900">Job Finder</h2>
+                                <h2 className="title-font font-medium text-lg text-gray-900">Nay Tech Org</h2>
                                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
                                 <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-flex">
@@ -77,12 +80,12 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/* 4th website */}
+                    {/* Doctor website */}
                     <div className="p-4 lg:w-1/2">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={JobFinder} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Doctor} />
                             <div className="flex-grow sm:pl-8">
-                                <h2 className="title-font font-medium text-lg text-gray-900">Job Finder</h2>
+                                <h2 className="title-font font-medium text-lg text-gray-900">Doctor Walid</h2>
                                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
                                 <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-flex">

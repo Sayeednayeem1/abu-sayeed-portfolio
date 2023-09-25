@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import pic1 from '../../assets/Images/job-finder/job-finder1.png';
-import pic2 from '../../assets/Images/job-finder/Job-finder2.png';
-import pic3 from '../../assets/Images/job-finder/job-finder3.png';
-import pic4 from '../../assets/Images/job-finder/job-finder4.png';
-import pic5 from '../../assets/Images/job-finder/job-finder5.png';
-import pic6 from '../../assets/Images/job-finder/Job-finder6.png';
+import pic1 from "../../assets/Images/amazing/Amazing-John.png";
+import pic2 from "../../assets/Images/amazing/Amazing-1.png";
+import pic3 from "../../assets/Images/amazing/Amazing-2.png";
+import pic4 from "../../assets/Images/amazing/Amazing-3.png";
+import pic5 from "../../assets/Images/amazing/Amazing-4.png";
+import pic6 from "../../assets/Images/amazing/Amazing-5.png";
 
-const JobFinder = () => {
+
+const AmazingJohn = () => {
+
     const [fullImage, setFullImage] = useState(null);
 
     const handleImageClick = (imageSrc) => {
@@ -22,7 +24,7 @@ const JobFinder = () => {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                     <div className="flex w-full mb-20 flex-wrap">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Job Finder App Pictures</h1>
+                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Amazing John App Pictures</h1>
                         <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">To Zoom the images, Please click on the images</p>
                     </div>
                     <div className="flex flex-wrap md:-m-2 -m-1">
@@ -98,4 +100,4 @@ const JobFinder = () => {
     );
 };
 
-export default JobFinder;
+export default AmazingJohn;

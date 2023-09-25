@@ -9,7 +9,6 @@ const Header = () => {
         <li className="text-xl font-bold text-slate-500"><Link to='/contact'>Contact</Link></li>
         <li className="text-xl font-bold text-slate-500"><Link to='/skills'>Skills</Link></li>
         <li className="text-xl font-bold text-slate-500"><Link to='https://drive.google.com/file/d/16ekUWaFuC33fuG3-Xhk-Y2_zLr5vWGpl/view?usp=sharing' target="_blank">Resume</Link></li>
-        <li className="text-xl font-bold text-slate-500"><Link to='/'>Home</Link></li>
     </React.Fragment>
 
     return (
@@ -25,7 +24,7 @@ const Header = () => {
                 </div>
                 <div className="avatar">
                     <div className="w-10 rounded-full">
-                        <img src={icon} alt='icon'/>
+                        <img src={icon} alt='icon' />
                     </div>
                 </div>
                 <a href='/' className="btn btn-ghost normal-case text-xl text-slate-500">SAYEED</a>
