@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import pic4 from '../../assets/Images/doctor/doctor-4.png'
 
 const Doctor = () => {
 
