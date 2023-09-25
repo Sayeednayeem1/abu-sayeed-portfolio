@@ -1,9 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import JobFinder from '../../assets/Images/job-finder/job-finder1.png';
-import AmazingJohn from '../../assets/Images/amazing/Amazing-John.png';
-import NayTech from '../../assets/Images/nay-tech/nay-1.png';
-import Doctor from '../../assets/Images/doctor/doctor-1.png';
 
 const Projects = () => {
     return (
@@ -20,7 +16,7 @@ const Projects = () => {
                 <div className="flex flex-wrap -m-4">
                     <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={JobFinder} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://i.ibb.co/dfqkFS6/Screenshot-from-2023-03-31-11-08-52.png' />
                             <div className="flex-grow sm:pl-8">
                                 <h2 className="title-font font-medium text-lg text-slate-500 lg:mb-2">Job Finder</h2>
 
@@ -44,7 +40,7 @@ const Projects = () => {
                     {/* Amazing John */}
                     <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={AmazingJohn} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://i.ibb.co/QbZyF2F/Amazing-John.png' />
                             <div className="flex-grow sm:pl-8">
                                 <h2 className="title-font font-medium text-lg text-slate-500 lg:mb-1">Amazing John</h2>
 
@@ -69,7 +65,7 @@ const Projects = () => {
                     {/* Nay Tech org */}
                     <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={NayTech} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://i.ibb.co/f4JfFm2/Screenshot-from-2023-03-26-16-11-53.png' />
                             <div className="flex-grow sm:pl-8">
                                 <h2 className="title-font font-medium text-lg text-slate-500 lg:mb-2">Nay Tech Org</h2>
 
@@ -93,7 +89,7 @@ const Projects = () => {
                     {/* Doctor website */}
                     <div className="p-4 lg:w-1/2 shadow-md">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Doctor} />
+                            <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://i.ibb.co/KL8jgZB/doctor2.png' />
                             <div className="flex-grow sm:pl-8">
                                 <h2 className="title-font font-medium text-lg text-slate-500">Doctor Walid</h2>
 

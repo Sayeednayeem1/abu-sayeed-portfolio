@@ -1,10 +1,4 @@
 import React, { useState } from 'react';
-import pic1 from '../../assets/Images/job-finder/job-finder1.png';
-import pic2 from '../../assets/Images/job-finder/Job-finder2.png';
-import pic3 from '../../assets/Images/job-finder/job-finder3.png';
-import pic4 from '../../assets/Images/job-finder/job-finder4.png';
-import pic5 from '../../assets/Images/job-finder/job-finder5.png';
-import pic6 from '../../assets/Images/job-finder/Job-finder6.png';
 
 const JobFinder = () => {
     const [fullImage, setFullImage] = useState(null);
@@ -31,24 +25,24 @@ const JobFinder = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic1}
-                                    onClick={() => handleImageClick(pic1)}
+                                    src={'https://i.ibb.co/dfqkFS6/Screenshot-from-2023-03-31-11-08-52.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/dfqkFS6/Screenshot-from-2023-03-31-11-08-52.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic2}
-                                    onClick={() => handleImageClick(pic2)}
+                                    src={'https://i.ibb.co/CWykBF3/Screenshot-from-2023-03-31-11-09-26.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/CWykBF3/Screenshot-from-2023-03-31-11-09-26.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-full">
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic3}
-                                    onClick={() => handleImageClick(pic3)}
+                                    src={'https://i.ibb.co/xshtks0/Screenshot-from-2023-03-31-11-10-27.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/xshtks0/Screenshot-from-2023-03-31-11-10-27.png')}
                                 />
                             </div>
                         </div>
@@ -57,24 +51,24 @@ const JobFinder = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic4}
-                                    onClick={() => handleImageClick(pic4)}
+                                    src={'https://i.ibb.co/c3KrJGq/Screenshot-from-2023-03-31-11-10-15.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/c3KrJGq/Screenshot-from-2023-03-31-11-10-15.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic5}
-                                    onClick={() => handleImageClick(pic5)}
+                                    src={'https://i.ibb.co/12kP7vH/Screenshot-from-2023-03-31-11-09-52.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/12kP7vH/Screenshot-from-2023-03-31-11-09-52.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic6}
-                                    onClick={() => handleImageClick(pic6)}
+                                    src={'https://i.ibb.co/b7B1H8F/Screenshot-from-2023-03-31-11-27-51.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/b7B1H8F/Screenshot-from-2023-03-31-11-27-51.png')}
                                 />
                             </div>
                         </div>

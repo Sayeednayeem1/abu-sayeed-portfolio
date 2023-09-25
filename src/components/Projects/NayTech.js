@@ -1,10 +1,4 @@
 import React, { useState } from 'react';
-import pic1 from '../../assets/Images/nay-tech/nay-1.png';
-import pic2 from '../../assets/Images/nay-tech/nay-2.png';
-import pic3 from '../../assets/Images/nay-tech/nay-3.png';
-import pic4 from '../../assets/Images/nay-tech/nay-4.png';
-import pic5 from '../../assets/Images/nay-tech/nay-5.png';
-import pic6 from '../../assets/Images/nay-tech/nay-6.png';
 
 const NayTech = () => {
 
@@ -32,24 +26,24 @@ const NayTech = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic1}
-                                    onClick={() => handleImageClick(pic1)}
+                                    src={'https://i.ibb.co/f4JfFm2/Screenshot-from-2023-03-26-16-11-53.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/f4JfFm2/Screenshot-from-2023-03-26-16-11-53.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic2}
-                                    onClick={() => handleImageClick(pic2)}
+                                    src={'https://i.ibb.co/1vprv5Q/Screenshot-from-2023-03-26-16-12-28.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/1vprv5Q/Screenshot-from-2023-03-26-16-12-28.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-full">
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic3}
-                                    onClick={() => handleImageClick(pic3)}
+                                    src={'https://i.ibb.co/VgG4B2z/Screenshot-from-2023-03-26-16-14-20.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/VgG4B2z/Screenshot-from-2023-03-26-16-14-20.png')}
                                 />
                             </div>
                         </div>
@@ -58,24 +52,24 @@ const NayTech = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic4}
-                                    onClick={() => handleImageClick(pic4)}
+                                    src={'https://i.ibb.co/BBWHfT8/Screenshot-from-2023-03-26-16-13-57.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/BBWHfT8/Screenshot-from-2023-03-26-16-13-57.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic5}
-                                    onClick={() => handleImageClick(pic5)}
+                                    src={'https://i.ibb.co/hB7vsD7/Screenshot-from-2023-03-26-16-13-36.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/hB7vsD7/Screenshot-from-2023-03-26-16-13-36.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic6}
-                                    onClick={() => handleImageClick(pic6)}
+                                    src={'https://i.ibb.co/P9z6FJy/Screenshot-from-2023-03-26-16-13-17.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/P9z6FJy/Screenshot-from-2023-03-26-16-13-17.png')}
                                 />
                             </div>
                         </div>

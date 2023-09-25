@@ -1,11 +1,4 @@
 import React, { useState } from 'react';
-import pic1 from "../../assets/Images/amazing/Amazing-John.png";
-import pic2 from "../../assets/Images/amazing/Amazing-1.png";
-import pic3 from "../../assets/Images/amazing/Amazing-2.png";
-import pic4 from "../../assets/Images/amazing/Amazing-3.png";
-import pic5 from "../../assets/Images/amazing/Amazing-4.png";
-import pic6 from "../../assets/Images/amazing/Amazing-5.png";
-
 
 const AmazingJohn = () => {
 
@@ -33,24 +26,24 @@ const AmazingJohn = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic1}
-                                    onClick={() => handleImageClick(pic1)}
+                                    src={'https://i.ibb.co/QbZyF2F/Amazing-John.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/QbZyF2F/Amazing-John.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic2}
-                                    onClick={() => handleImageClick(pic2)}
+                                    src={'https://i.ibb.co/fnvTwMD/Amazing-1.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/fnvTwMD/Amazing-1.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-full">
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic3}
-                                    onClick={() => handleImageClick(pic3)}
+                                    src={'https://i.ibb.co/6J5QNxj/amazing-2.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/6J5QNxj/amazing-2.png')}
                                 />
                             </div>
                         </div>
@@ -59,24 +52,24 @@ const AmazingJohn = () => {
                                 <img
                                     alt="gallery"
                                     className="w-full h-full object-cover object-center block cursor-pointer"
-                                    src={pic4}
-                                    onClick={() => handleImageClick(pic4)}
+                                    src={'https://i.ibb.co/6J5QNxj/amazing-2.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/6J5QNxj/amazing-2.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic5}
-                                    onClick={() => handleImageClick(pic5)}
+                                    src={'https://i.ibb.co/njwB9tm/amazing.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/njwB9tm/amazing.png')}
                                 />
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
                                 <img
                                     alt="gallery"
                                     className="w-full object-cover h-full object-center block cursor-pointer"
-                                    src={pic6}
-                                    onClick={() => handleImageClick(pic6)}
+                                    src={'https://i.ibb.co/FWf3CjL/amazing-1f.png'}
+                                    onClick={() => handleImageClick('https://i.ibb.co/FWf3CjL/amazing-1f.png')}
                                 />
                             </div>
                         </div>
