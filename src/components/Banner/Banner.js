@@ -18,7 +18,7 @@ const Banner = () => {
                             options={{
                                 strings: [
                                     '<span>Hi, I am <span style="color: #FF004D;">Abu Sayeed</span></span>',
-                                    '<span <span style="color: #FF004D;" >A web Developer</span>',
+                                    '<span>A Professional <span style="color: #FF004D;">Web Developer</span></span>',
                                 ],
                                 autoStart: true,
                                 loop: true,

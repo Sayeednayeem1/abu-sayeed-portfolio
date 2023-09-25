@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import Lottie from 'lottie-react';
 import Test from '../../assets/Images/contact.json';
+import { Link } from 'react-router-dom';
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
     return (
@@ -17,16 +19,20 @@ const Contact = () => {
                     </div>
 
                     <div className="p-4 sm:w-1/2 lg:w-1/6 w-1/2">
-                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'> <Link target='_blank' to='https://www.linkedin.com/in/sayeed-nayeem/'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></Link></p>
                     </div>
                     <div className="p-4 sm:w-1/2 lg:w-1/6 w-1/2">
-                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><Link target='_blank' to='https://web.facebook.com/sayed.nayem.188'><FaFacebookF className='text-2xl'></FaFacebookF></Link></p>
                     </div>
                     <div className="p-4 sm:w-1/2 lg:w-1/6 w-1/2">
-                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation' onClick={() => window.location.href = 'mailto:sayeedn850@gmail.com'}><AiOutlineMail className='text-2xl'></AiOutlineMail></p>
                     </div>
                     <div className="p-4 sm:w-1/2 lg:w-1/6 w-1/2">
-                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'><FaLinkedinIn className='text-2xl'></FaLinkedinIn></p>
+                        <p className='bg-[#E0EDEF] hover:bg-gray-200 shadow-xl flex items-center p-6 rounded-lg cursor-pointer icon-animation'>
+                            <Link target='_blank' to='https://twitter.com/SayeedNayeem9'>
+                                <FaTwitter className='text-2xl'></FaTwitter>
+                            </Link>
+                        </p>
                     </div>
                 </div>
                 <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
